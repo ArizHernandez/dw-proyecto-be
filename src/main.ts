@@ -1,6 +1,8 @@
 import { Request, Response } from "express";
+import express from "express";
 
-const express = require("express");
+import "reflect-metadata";
+
 const app = express();
 const port = 3200;
 
